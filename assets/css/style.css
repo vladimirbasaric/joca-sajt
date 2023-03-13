@@ -113,7 +113,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 120px;
+  max-height: 70px;
 }
 
 /*--------------------------------------------------------------
@@ -347,7 +347,7 @@ h6 {
   overflow: hidden;
   position: relative;
   /* background: linear-gradient(0deg, rgb(42, 44, 57) 0%, rgb(51, 54, 74) 100%); */
-  background-image: url(/assets/img/roads.jpg);
+  background-image: url(/assets/img/maintenance_and_repair-opacity73.png);
   background-size: cover;
   background-position: center;
   max-width: 100%;
@@ -367,7 +367,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  color: #202022;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -378,7 +378,8 @@ h6 {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: #101011;
+  font-size: 25px;
 }
 
 #hero .carousel-control-prev,
@@ -406,7 +407,7 @@ h6 {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #000000;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #ef6603;
