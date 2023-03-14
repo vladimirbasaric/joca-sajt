@@ -9,9 +9,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  /* font-family: "Raleway", sans-serif; */
-  font-family: "Roboto Mono", monospace;
-  color: #444444;
+  font-family: "Raleway", sans-serif;
+  /* font-family: "Roboto Mono", monospace; */
+  color: #000000;
+  font-weight: bolder;
 }
 
 a {
@@ -30,8 +31,8 @@ h3,
 h4,
 h5,
 h6 {
-  /* font-family: "Raleway", sans-serif; */
-  font-family: "Roboto Mono", monospace;
+  font-family: "Raleway", sans-serif;
+  /* font-family: "Roboto Mono", monospace; */
 }
 
 /*--------------------------------------------------------------
