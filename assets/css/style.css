@@ -360,13 +360,19 @@ h6 {
   overflow: hidden;
   position: relative;
   /* background: linear-gradient(0deg, rgb(42, 44, 57) 0%, rgb(51, 54, 74) 100%); */
-  background-image: url(/assets/img/maintenance_and_repair-opacity73.png);
+  background-image: url(/assets/img/prepravljeno-test.jpg);
   background-size: cover;
   background-position: center;
   max-width: 100%;
   height: auto;
   padding: 0;
 }
+
+/* 
+colors
+#6caff1
+#449cf3 
+*/
 
 #hero .carousel-container {
   display: flex;
@@ -380,7 +386,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #202022;
+  color: #000000;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -598,7 +604,7 @@ section {
 }
 
 #about {
-  background-image: url(/assets/img/about2.jpg);
+  background-image: url(/assets/img/about2-test.jpg);
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -611,6 +617,9 @@ section {
 
 .about-p {
   color: #000000;
+}
+.p-pading {
+  padding-top: 100px;
 }
 
 .about .content h3 {
@@ -666,6 +675,18 @@ section {
   background: #6caff1;
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  .about-p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .p-pading {
+    padding-top: 0px;
+  }
 }
 
 /*--------------------------------------------------------------
