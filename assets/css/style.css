@@ -43,6 +43,10 @@ h6 {
   /* font-family: "Roboto Mono", monospace; */
 }
 
+.padding-large {
+  padding-top: 125px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -125,6 +129,12 @@ h6 {
   padding: 3px 0 0 0;
   margin: 0;
   max-height: 70px;
+}
+
+#moj-logo img {
+  padding: 3px 0 0 0;
+  margin: 0;
+  max-height: 150px;
 }
 
 /*--------------------------------------------------------------
@@ -360,12 +370,22 @@ h6 {
   overflow: hidden;
   position: relative;
   /* background: linear-gradient(0deg, rgb(42, 44, 57) 0%, rgb(51, 54, 74) 100%); */
-  background-image: url(/assets/img/prepravljeno-test.jpg);
+  background-image: url(/assets/img/prepravljeno-test-1.jpg);
   background-size: cover;
   background-position: center;
   max-width: 100%;
   height: auto;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  #hero {
+    background-image: url(/assets/img/prepravljeno-test-za-telefon.jpg);
+  }
+
+  /* #hero h2 {
+    font-size: 28px;
+  } */
 }
 
 /* 
@@ -388,7 +408,7 @@ colors
 #hero h2 {
   color: #000000;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 58px;
   font-weight: 700;
 }
 
@@ -397,8 +417,8 @@ colors
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #101011;
-  font-size: 25px;
+  color: #000000;
+  font-size: 35px;
 }
 
 #hero .carousel-control-prev,
@@ -455,7 +475,10 @@ colors
   }
 
   #hero h2 {
-    font-size: 28px;
+    font-size: 38px;
+  }
+  #hero p {
+    font-size: 22px;
   }
 }
 
