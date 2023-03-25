@@ -406,9 +406,10 @@ colors
 }
 
 #hero h2 {
-  color: #000000;
+  color: #c5c2c2;
   margin-bottom: 30px;
   font-size: 58px;
+
   font-weight: 700;
 }
 
@@ -475,10 +476,11 @@ colors
   }
 
   #hero h2 {
-    font-size: 38px;
+    font-size: 42px;
   }
   #hero p {
     font-size: 22px;
+    color: #c5c2c2;
   }
 }
 
