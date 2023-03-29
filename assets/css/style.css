@@ -478,10 +478,11 @@ colors
 
   #hero h2 {
     font-size: 42px;
+    color: #d7d2d2;
   }
   #hero p {
     font-size: 22px;
-    color: #ffffff;
+    color: #d7d2d2;
   }
 }
 
